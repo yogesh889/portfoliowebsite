@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Vishvraj Baan</Logo>
+        <Logo>Yogesh Kumar</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -100,7 +100,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          Vishvrajbaan@gmail.com
+          8058yogesh@gmail.com
         </Copyright>
       </FooterWrapper>
     </FooterContainer>

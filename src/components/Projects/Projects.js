@@ -14,14 +14,14 @@ const Projects = ({openModal,setOpenModal}) => {
         <Desc>
           I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
         </Desc>
-        <ToggleButtonGroup >
-          {toggle === 'all' ?
+        {/* <ToggleButtonGroup > */}
+          {/* {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
             :
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
-          <Divider />
-          {toggle === 'web app' ?
+          <Divider /> */}
+          {/* {toggle === 'web app' ?
             <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
             :
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
@@ -43,8 +43,8 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton active value="WEB EXTENSIONS" onClick={() => setToggle('WEB EXTENSIONS')}>WEB EXTENSIONS</ToggleButton>
             :
             <ToggleButton value="WEB EXTENSIONS" onClick={() => setToggle('WEB EXTENSIONS')}>WEB EXTENSIONS</ToggleButton>
-          }
-        </ToggleButtonGroup>
+          } */}
+        {/* </ToggleButtonGroup> */}
         <CardContainer>
           {toggle === 'all' && projects
             .map((project) => (

@@ -1,8 +1,18 @@
 export const Bio = {
   name: "Yogesh Kumar",
   roles: ["FullStack Developer"],
-  description:
-    "Hello, I am Yogesh Kumar, Highly motivated and diligent recent graduate with a BTech in Information Technology. Possesses a strong academic foundation and a passion for Technology. Excellent problem-solving abilities and a quick learner.",
+  description: (
+    <div>
+      <h4>Hello, I am Yogesh Kumar,</h4>
+      <p>
+        ▪️ ▪️ ▪️ I am an Information technology undergraduate form Government
+        Engineering College. As a technology enthusiast, I have been
+        wholeheartedly dedicated to advancing my knowledge and skills in this
+        field .
+      </p>
+    </div>
+  ),
+
   github: "https://github.com/yogesh889",
   resume:
     "https://drive.google.com/file/d/1ooeTVrwstdwlMsv2WIKtZ6O09szfYOyx/view?usp=sharing",
@@ -158,18 +168,17 @@ export const education = [
     grade: "7.32 CGPA",
     desc: (
       <div>
-        <ul>
-          <li>
-            ▪️ I Graduated in bachlor's degree in Information technology at
-            Government Engineering College, Ajmer(Rajasthan).
-          </li>
-          <li>
-            ▪️ I have completed all semesters and have a CGPA of 8.32. I have taken
-            courses in Data Structures, Algorithms, Object-Oriented Programming,
-            Database Management Systems, Operating Systems, and Computer
-            Networks, among others.
-          </li>
-        </ul>
+        <p>
+          ▪️ I Graduated in bachlor's degree in Information technology at
+          Government Engineering College, Ajmer(Rajasthan).
+        </p>
+
+        <p>
+          ▪️ I have completed all semesters and have a CGPA of 8.32. I have
+          taken courses in Data Structures, Algorithms, Object-Oriented
+          Programming, Database Management Systems, Operating Systems, and
+          Computer Networks, among others.
+        </p>
       </div>
     ),
     degree:
@@ -181,15 +190,15 @@ export const education = [
     school: "Meera Public School, Ajmer",
     date: "Apr 2017 - Apr 2018",
     grade: "68.00%",
-    desc: "▪️ I Graduacated 12th class in subject math and science",
+    desc: "▪️ I completed my 12th-grade education with a specialization in mathematics and science subjects.",
   },
   {
     id: 2,
     img: "https://targetstudy.com/files/img/2/10989/L_58270.gif",
     school: "East Point Public School, Ajmer",
-    date: "Apr 2015 - Apr 2016",
+    date: "Apr 2014 - Apr 2015",
     grade: "64.00%",
-    desc: "▪️ I Graduacated 10th class with all subjects",
+    desc: "▪️ I accomplished my 10th-grade education, covering all subjects.",
   },
 ];
 

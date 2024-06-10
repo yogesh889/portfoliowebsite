@@ -5,7 +5,7 @@ export const Bio = {
     <div>
       <h4>Hello, I am Yogesh Kumar,</h4>
       <p>
-        ▪️ ▪️ ▪️ I am an Information technology undergraduate form Government
+        ▪️ ▪️ ▪️ I am an Information technology undergraduate from Government
         Engineering College. As a technology enthusiast, I have been
         wholeheartedly dedicated to advancing my knowledge and skills in this
         field .
@@ -15,7 +15,7 @@ export const Bio = {
 
   github: "https://github.com/yogesh889",
   resume:
-    "https://drive.google.com/file/d/1ooeTVrwstdwlMsv2WIKtZ6O09szfYOyx/view?usp=sharing",
+    "https://drive.google.com/file/d/1lSwcXRZbewHrpkT5UWHTlLvjFNjH0mQ-/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/yogesh-kumar-b47b911a2/",
   Leetcode: "https://leetcode.com/8058yogesh/",
 };
@@ -56,7 +56,7 @@ export const skills = [
       {
         name: "Data structures",
         image:
-          "https://thenounproject.com/api/private/icons/1430829/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0",
+          "https://icons.veryicon.com/png/o/miscellaneous/icons-for-data-class-organization-and/data-structure-1.png",
       },
       {
         name: "Algorithms",
@@ -103,7 +103,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://git-scm.com/images/logos/logomark-orange@2x.png",
       },
       {
         name: "GitHub",
@@ -135,26 +135,35 @@ export const experiences = [
     img: "https://miro.medium.com/v2/resize:fit:1400/0*JlnxyNcvZuZ0k1vp",
     role: "DesiQna Engineer Trainee",
     company: "DesiQna",
-    date: "Jun 2020 - Aug 2020",
-    desc: "Design and Developed Fully Responsive single page application using React.js",
-    skills: ["HTML", "CSS", "JavaScript", "BOOSTRAP", "REACTJS"],
+    date: "Jan 2023 - Mar 2023",
+    desc: "Improved UI Design and Solved the complexity of database and redundancy in data to different Attribute by Improving database design using ER(Entity Relationship). Assign priveledge to different users based on there role.",
+    skills: ["HTML", "CSS", "JavaScript", "BOOSTRAP", "REACTJS", "DBMS", "SQL"],
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4D03AQEtnoeRMz7Nbw/profile-displayphoto-shrink_800_800/0/1621862389605?e=1702512000&v=beta&t=1lD5cpjBNkLnUIiaJIlKnA-DY9nRRUYRx04FvFiCsuE",
-    role: "Software Engineer Trainee",
-    company: "Shopsky",
-    date: "Jun 2020 - Aug 2020",
-    desc: "Design and Developed Fully Responsive career page. Increased Enagagement up 50% on career page.",
+    img: "https://scontent.fjai2-2.fna.fbcdn.net/v/t39.30808-6/301980389_445006234312747_6242073793478263092_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=s3V3Bm3b92kQ7kNvgEYKGwq&_nc_ht=scontent.fjai2-2.fna&oh=00_AYCHbdVZqqN87Rb8qpXA-R0Qt51Hxr4p1sS887uDLSnujA&oe=666C90DC",
+    role: "Software Development Intern",
+    company: "Digiwebclub Pvt. Ltd.",
+    date: "Feb 2022 - Jul 2022",
+    desc: "Created a 100% responsive frontend, boosting user engage-ment by 30%. Enhance security by providing protection against syn flooding.",
     skills: ["HTML", "CSS", "JavaScript", "BOOSTRAP"],
   },
   {
     id: 2,
+    img: "https://scontent.fjai2-2.fna.fbcdn.net/v/t39.30808-6/301980389_445006234312747_6242073793478263092_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=s3V3Bm3b92kQ7kNvgEYKGwq&_nc_ht=scontent.fjai2-2.fna&oh=00_AYCHbdVZqqN87Rb8qpXA-R0Qt51Hxr4p1sS887uDLSnujA&oe=666C90DC",
+    role: "Software Engineer Trainee",
+    company: "Shopsky",
+    date: "Jun 2020 - Aug 2020",
+    desc: "Design and Developed Fully Responsive career page. Organize the data on the Frontend of UI(User Interface) and Improved the UX(User Experience) of the website.",
+    skills: ["HTML", "CSS", "JavaScript", "BOOSTRAP"],
+  },
+  {
+    id: 3,
     img: "https://skfreelancers.com/wp-content/uploads/2020/04/freelancer.png",
     role: "FUll stack Freelancer",
     company: "Freelancer",
     date: "NOV 2019 - July 2023",
-    desc: "Built client projects based on there diffirent requirements and managing there projects in past years",
+    desc: "Solving Different levels of Database related problems and Providing Networking related Issues. Worked in Making Lectures on 'learning basics of c++' for client",
     skills: ["ReactJS", "NodeJs", "Material UI", "HTML", "CSS", "JavaScript"],
   },
 ];
@@ -174,7 +183,7 @@ export const education = [
         </p>
 
         <p>
-          ▪️ I have completed all semesters and have a CGPA of 8.32. I have
+          ▪️2023 Graduate with 7.60 CGPA. I have
           taken courses in Data Structures, Algorithms, Object-Oriented
           Programming, Database Management Systems, Operating Systems, and
           Computer Networks, among others.
@@ -202,7 +211,7 @@ export const education = [
   },
 ];
 
-export const projects = [
+export const Projects = [
   {
     id: 0,
     title: "Realtime Chat Application",
@@ -211,13 +220,16 @@ export const projects = [
       <div>
         <ul>
           <li>
-            Developed a real-time chat app using React.js. Ensured secure
+            Developed a real-time Full Duplex chat app using React.js. Ensured secure
             access, responsive design, and high-quality messaging.
           </li>
           <li>Implemented algorithms for clean, datatype-based software.</li>
           <li>
             Utilized technologies: HTML, CSS, JavaScript, React.js, Socket.IO,
             Express.js, Node.js.
+          </li>
+          <li>
+            Still in working...
           </li>
         </ul>
       </div>
@@ -249,7 +261,7 @@ export const projects = [
             inception to completion, leveraging HTML, CSS, Javascript and
             React.Js.
           </li>
-          <li>Used useState Hook, useEffect Hook, and useContext Hook.</li>
+          <li>Used useState Hook, useEffect Hook, and useContext Hook and other custom Hooks to add more functionality</li>
         </ul>
       </div>
     ),
@@ -267,8 +279,7 @@ export const projects = [
       <div>
         <ul>
           <li>
-            Created a responsive Spotify clone with API integration from
-            RapidAPI
+            API Integration in a Spotify clone web application using React.js to fetch data from the API and can add millions of other songs also.
           </li>
           <li>
             Gained hands-on experience in making project interactive using
@@ -292,8 +303,7 @@ export const projects = [
       <div>
         <ul>
           <li>
-            provides real-time COVID-19 statistics for India. Integrated with a
-            reliable data source.
+            To get to know about how API is working behind the scene there is a small project which i made to learn basics of API.
           </li>
           <li>
             Successfully integrated API data feeds, ensuring up-to-the-minute
@@ -344,8 +354,8 @@ export const projects = [
       <div>
         <ul>
           <li>
-            I developed a robust TODO-LIST web application using React.js,
-            enabling users to efficiently manage tasks and prioritize their
+            Learning about the CRUD operation in React.js, I developed a TODO-LIST web application using React.js,
+            It enabling users to efficiently manage tasks and prioritize their
             daily activities.
           </li>
           <li>

@@ -211,7 +211,7 @@ export const education = [
   },
 ];
 
-export const Projects = [
+export const projects = [
   {
     id: 0,
     title: "Realtime Chat Application",

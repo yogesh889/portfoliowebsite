@@ -153,23 +153,30 @@ const ExperienceCard = ({ experience }) => {
                 </Body>
             </Top>
             <Description>
-                {experience.desc}
-                {experience.skills && (
-                <>
-                <br />
-                <Skills>
-                    <b>Skills:</b>
-                    <ItemWrapper>
-                        {experience.skills.map((skill) => (
-                            <Skill>• {skill}</Skill>
-                        ))}
-                    </ItemWrapper>
-                </Skills>
-                </>
-                )}
-                
-                
-            </Description>
+  {Array.isArray(experience.desc) ? (
+    <ul style={{ paddingLeft: "20px", marginBottom: "10px" }}>
+      {experience.desc.map((point, index) => (
+        <li key={index}>{point}</li>
+      ))}
+    </ul>
+  ) : (
+    <Span>{experience.desc}</Span>
+  )}
+
+  {experience.skills && (
+    <>
+      <Skills>
+        <b>Skills:</b>
+        <ItemWrapper>
+          {experience.skills.map((skill, index) => (
+            <Skill key={index}>• {skill}</Skill>
+          ))}
+        </ItemWrapper>
+      </Skills>
+    </>
+  )}
+</Description>
+
             {experience.doc &&
                 <a href={experience.doc} target="new">
                     <Document src={experience.doc} />

@@ -47,6 +47,7 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
+            {console.log("Hello there")}
             <Contact />
           </Wrapper>
           <Footer />

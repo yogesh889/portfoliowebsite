@@ -1,8 +1,9 @@
+import RKSS from "../images/RKSS.jpg";
 export const Bio = {
   name: "Yogesh Kumar",
   roles: ["FullStack Developer"],
   description: (
-    <div>
+    (<div>
       <h4>Hello, I am Yogesh Kumar,</h4>
       <p>
         ▪️ ▪️ ▪️ I am an Information technology undergraduate from Government
@@ -10,7 +11,7 @@ export const Bio = {
         wholeheartedly dedicated to advancing my knowledge and skills in this
         field .
       </p>
-    </div>
+    </div>)
   ),
 
   github: "https://github.com/yogesh889",
@@ -142,7 +143,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://miro.medium.com/v2/resize:fit:1400/0*JlnxyNcvZuZ0k1vp",
+    img: {RKSS},
     role: "Technical Consultant (NGO Project)",
     company: "RKSS(Rajasthan Kalyan Seva Sansthan",
     date: "Nov 2023 - N0v 2024",

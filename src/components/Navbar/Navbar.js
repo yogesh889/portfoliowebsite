@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constant';
 //import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
 
 

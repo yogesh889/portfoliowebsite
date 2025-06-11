@@ -16,7 +16,7 @@ export const Bio = {
 
   github: "https://github.com/yogesh889",
   resume:
-    "https://drive.google.com/file/d/1cDNlNYM9121O5Q4JCKjMFMAtA-qahe4z/view?usp=sharing",
+    "https://drive.google.com/file/d/1pzE7J0UAeklClFQ3SF98E5m0C-RxyC2K/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/yogesh-kumar-b47b911a2/",
   Leetcode: "https://leetcode.com/8058yogesh/",
 };

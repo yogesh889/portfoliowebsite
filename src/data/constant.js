@@ -1,17 +1,23 @@
 import RKSS from "../images/RKSS.jpg";
+import chatApp from "../images/chatApp.jpg";
 export const Bio = {
   name: "Yogesh Kumar",
   roles: ["FullStack Developer"],
   description: (
-    (<div>
-      <h4>Hello, I am Yogesh Kumar,</h4>
+    <div>
       <p>
-        ▪️ ▪️ ▪️ I am an Information technology undergraduate from Government
-        Engineering College. As a technology enthusiast, I have been
-        wholeheartedly dedicated to advancing my knowledge and skills in this
-        field .
+        <ul>
+          <li>
+            MERN stack developer with strong problem-solving and
+            project-building skills.
+          </li>
+          <li>
+            Awarded National-level NCC 'C' Certificate with Alpha grade,
+            demonstrating excellence in discipline, leadership, and teamwork.
+          </li>
+        </ul>
       </p>
-    </div>)
+    </div>
   ),
 
   github: "https://github.com/yogesh889",
@@ -143,16 +149,51 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: {RKSS},
+    img: RKSS,
     role: "Technical Consultant (NGO Project)",
     company: "RKSS(Rajasthan Kalyan Seva Sansthan",
     date: "Nov 2023 - N0v 2024",
     desc: [
-      "Optimized a government service portal used for public welfare programs.",
-      "Improved system efficiency by 40%.",
-      "Collaborated with cross-functional teams to deliver scalable modules.",
+      <div>
+        <p>
+          This system as a digital ecosystem—much like an ERP (Enterprise
+          Resource Planning) solution, but designed for the social sector. Just
+          as ERP centralizes business operations for enterprises, SIMS
+          centralizes social impact operations for NGOs, enabling transparency,
+          efficiency, and real-time engagement between all stakeholders.
+        </p>
+        <p>
+          <br /> <strong>🌍 Real-World Impact of This Project</strong>
+        </p>
+        <p>
+          <ul>
+            <li>Stakeholder - Benefit</li>
+            <li>
+              NGO Staff - Saves time, increases transparency, better
+              decision-making
+            </li>
+            <li>
+              Donors - Transparent tracking, better communication,
+              trust-building
+            </li>
+            <li>
+              Volunteers - Easy access to opportunities, updates, training
+            </li>
+            <li>Beneficiaries - Access to resources, apply for aid directly</li>
+          </ul>
+        </p>
+      </div>,
     ],
-    skills: ["HTML", "CSS", "JavaScript", "BOOSTRAP", "REACTJS", "DBMS", "SQL"],
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TAILWINDCSS",
+      "REACTJS",
+      "EXPRESSJS",
+      "NODEJS",
+      "MONGODB",
+    ],
   },
   {
     id: 0,
@@ -268,8 +309,7 @@ export const projects = [
         </ul>
       </div>
     ),
-    image:
-      "https://camo.githubusercontent.com/ffcc11f9f8375f688d430e6010fc0837cb2dded4d84fa59cd7c44e3e1553b4ab/68747470733a2f2f692e7974696d672e636f6d2f76692f5a77464133594d666b6f632f6d617872657364656661756c742e6a7067",
+    image: chatApp,
     tags: [
       "HTML",
       "CSS",

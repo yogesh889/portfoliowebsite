@@ -1,5 +1,6 @@
 import RKSS from "../images/RKSS.jpg";
 import chatApp from "../images/chatApp.jpg";
+import CAW_Studios from "../images/CAW_Studios.png";
 export const Bio = {
   name: "Yogesh Kumar",
   roles: ["FullStack Developer"],
@@ -349,7 +350,34 @@ export const projects = [
     webapp: "https://yogesh889.github.io/traveltourwebsite/",
   },
   {
-    id: 4,
+    id: 2,
+    title: "Reeco Order Management Dashboard",
+    date: "May 2023 - May 2023",
+    description: (
+      <div>
+        <ul>
+          <li>
+            Designed and developed a B2B order management system that allows
+            users (such as procurement managers) to view, review, and approve
+            supplier orders in a streamlined interface.
+          </li>
+          <li>
+           Reduced order review and approval time by 40%.
+          </li>
+          <li>
+          Improved user satisfaction by providing a centralized, easy-to-use dashboard.
+          </li>
+        </ul>
+      </div>
+    ),
+    image: CAW_Studios,
+    tags: ["HTML", "CSS", "Javascript","MongoDB", "JWT/Role-Based", "React.Js", "Bootstrap", "Material-UI"],
+    // category: "web app",
+    github: "https://github.com/yogesh889/ecom",
+    webapp: "https://yogesh889.github.io/ecom/",
+  },
+  {
+    id: 3,
     title: "Spotify Clone",
     date: "June 2023 - June 2023",
     description: (
@@ -374,7 +402,7 @@ export const projects = [
       "https://65264776c1bc190008de0bf3--friendly-custard-4968f1.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Covid 19 Tracker Webapp",
     date: "July 2022 - Aug 2022",
     description: (
@@ -398,7 +426,7 @@ export const projects = [
     webapp: "https://yogesh889.github.io/covid_19_tracker_app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "CRUD Web Application",
     date: "Dec 2021 - feb 2022",
     description: (
@@ -426,7 +454,7 @@ export const projects = [
     webapp: "https://yogesh889.github.io/counter_app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Todo-List Webapp",
     date: "April 2021",
     description: (

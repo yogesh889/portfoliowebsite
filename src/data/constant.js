@@ -311,7 +311,7 @@ export const projects = [
         </ul>
       </div>
     ),
-    image: CLOTHING_WEBAPP,
+    image: chatApp,
     tags: [
       "HTML",
       "CSS",
@@ -352,7 +352,7 @@ export const projects = [
         </ul>
       </div>
     ),
-    image: chatApp,
+    image: CLOTHING_WEBAPP,
     tags: [
       "HTML",
       "CSS",

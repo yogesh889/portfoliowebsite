@@ -152,7 +152,7 @@ export const experiences = [
   {
     id: 0,
     img: RKSS,
-    role: "Technical Consultant (NGO Project)",
+    role: "Technical Consultant",
     company: "RKSS(Rajasthan Kalyan Seva Sansthan",
     date: "Nov 2023 - N0v 2024",
     desc: [

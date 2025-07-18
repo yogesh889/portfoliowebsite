@@ -1,6 +1,7 @@
 import RKSS from "../images/RKSS.jpg";
 import chatApp from "../images/chatApp.jpg";
 import CAW_Studios from "../images/CAW_Studios.png";
+import CLOTHING_WEBAPP from "../images/CLOTHING_WEBAPP.png";
 export const Bio = {
   name: "Yogesh Kumar",
   roles: ["FullStack Developer"],
@@ -310,7 +311,7 @@ export const projects = [
         </ul>
       </div>
     ),
-    image: chatApp,
+    image: CLOTHING_WEBAPP,
     tags: [
       "HTML",
       "CSS",

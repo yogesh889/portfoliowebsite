@@ -325,6 +325,48 @@ export const projects = [
     webapp: "https://chat-client-omega-six.vercel.app/",
   },
   {
+    id: 0,
+    title: "Clothing E-Comm",
+    date: "Jun 2024 - Jul 2024",
+    description: (
+      <div>
+        <ul>
+          <li>
+            Developed a dynamic clothing e-commerce web app using functional
+            components, config-driven UI, and React Router for seamless
+            navigation with dynamic routes via useParams.
+          </li>
+          <li>
+            Integrated RESTful APIs using Fetch; resolved CORS issues;
+            implemented shimmer UI for skeleton loading and lazy loading to
+            boost performance and user experience.
+          </li>
+          <li>
+            Leveraged Redux for scalable state management; applied optional
+            chaining to prevent runtime errors; ensured cross-browser
+            compatibility using browserslist; followed a monolithic
+            architecture.
+          </li>
+          <li>Still in working...</li>
+        </ul>
+      </div>
+    ),
+    image: chatApp,
+    tags: [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "REACT.JS",
+      "TAILWINDCSS",
+      "MATERIALUI",
+      "REDUX",
+      "REACT ROUTER",
+    ],
+    // category: "web app",
+    github: "https://github.com/yogesh889",
+    webapp: "https://ecommerce-app-r8sg.onrender.com/",
+  },
+  {
     id: 1,
     title: "Travel And Tour Website",
     date: "Apr 2023 - Apr 2023",
@@ -361,17 +403,25 @@ export const projects = [
             users (such as procurement managers) to view, review, and approve
             supplier orders in a streamlined interface.
           </li>
+          <li>Reduced order review and approval time by 40%.</li>
           <li>
-           Reduced order review and approval time by 40%.
-          </li>
-          <li>
-          Improved user satisfaction by providing a centralized, easy-to-use dashboard.
+            Improved user satisfaction by providing a centralized, easy-to-use
+            dashboard.
           </li>
         </ul>
       </div>
     ),
     image: CAW_Studios,
-    tags: ["HTML", "CSS", "Javascript","MongoDB", "JWT/Role-Based", "React.Js", "Bootstrap", "Material-UI"],
+    tags: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "MongoDB",
+      "JWT/Role-Based",
+      "React.Js",
+      "Bootstrap",
+      "Material-UI",
+    ],
     // category: "web app",
     github: "https://github.com/yogesh889/ecom",
     webapp: "https://yogesh889.github.io/ecom/",

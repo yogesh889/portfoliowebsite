@@ -452,29 +452,29 @@ export const projects = [
     webapp:
       "https://65264776c1bc190008de0bf3--friendly-custard-4968f1.netlify.app/",
   },
-  {
-    id: 4,
-    title: "Covid 19 Tracker Webapp",
-    date: "July 2022 - Aug 2022",
+  {id: 4,
+    title: "Product Dashboard",
+    date: "Sept 2025",
     description: (
       <div>
         <ul>
           <li>
-            To get to know about how API is working behind the scene there is a
-            small project which i made to learn basics of API.
+            Built a web-based Product Dashboard to manage inventory with
+             full CRUD functionality (Add, View, Edit, Delete).
           </li>
           <li>
-            Successfully integrated API data feeds, ensuring up-to-the-minute
-            information accuracy.
+            Used shadcn/ui components (Button, Dialog, Input, Label, Skeleton) 
+            for building accessible, responsive, and consistent UI.
           </li>
         </ul>
       </div>
     ),
-    image: require("../../src/assets//covid_19_thumbnail.png"),
-    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React.Js"],
-    // category: "WEB EXTENSIONS",
-    github: "https://github.com/yogesh889/covid_19_tracker_app",
-    webapp: "https://yogesh889.github.io/covid_19_tracker_app/",
+    image: require("../../src/images/ProductDashboard.jpg"),
+    tags: ["HTML", "CSS", "Javascript", "TailwindCSS", "React.Js", "Shadcn/ui"],
+    category: "AI/ML",
+    github: "https://github.com/yogesh889/Product-Dashboard",
+    webapp: "https://product-dashboard-hdt1.onrender.com/",
+    
   },
   {
     id: 5,
@@ -530,27 +530,29 @@ export const projects = [
     webapp: "https://yogesh889.github.io/todolistapp/",
   },
   {
+    
+
     id: 7,
-    title: "Product Dashboard",
-    date: "Sept 2025",
+    title: "Covid 19 Tracker Webapp",
+    date: "July 2022 - Aug 2022",
     description: (
       <div>
         <ul>
           <li>
-            Built a web-based Product Dashboard to manage inventory with
-             full CRUD functionality (Add, View, Edit, Delete).
+            To get to know about how API is working behind the scene there is a
+            small project which i made to learn basics of API.
           </li>
           <li>
-            Used shadcn/ui components (Button, Dialog, Input, Label, Skeleton) 
-            for building accessible, responsive, and consistent UI.
+            Successfully integrated API data feeds, ensuring up-to-the-minute
+            information accuracy.
           </li>
         </ul>
       </div>
     ),
-    image: require("../../src/images/ProductDashboard.jpg"),
-    tags: ["HTML", "CSS", "Javascript", "TailwindCSS", "React.Js", "Shadcn/ui"],
-    category: "AI/ML",
-    github: "https://github.com/yogesh889/Product-Dashboard",
-    webapp: "https://product-dashboard-hdt1.onrender.com/",
+    image: require("../../src/assets//covid_19_thumbnail.png"),
+    tags: ["HTML", "CSS", "Javascript", "Bootstrap", "React.Js"],
+    // category: "WEB EXTENSIONS",
+    github: "https://github.com/yogesh889/covid_19_tracker_app",
+    webapp: "https://yogesh889.github.io/covid_19_tracker_app/",
   },
 ];

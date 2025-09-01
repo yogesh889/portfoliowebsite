@@ -529,4 +529,28 @@ export const projects = [
     github: "https://github.com/yogesh889/todolistapp",
     webapp: "https://yogesh889.github.io/todolistapp/",
   },
+  {
+    id: 7,
+    title: "Product Dashboard",
+    date: "Sept 2025",
+    description: (
+      <div>
+        <ul>
+          <li>
+            Built a web-based Product Dashboard to manage inventory with
+             full CRUD functionality (Add, View, Edit, Delete).
+          </li>
+          <li>
+            Used shadcn/ui components (Button, Dialog, Input, Label, Skeleton) 
+            for building accessible, responsive, and consistent UI.
+          </li>
+        </ul>
+      </div>
+    ),
+    image: require("../../src/images/ProductDashboard.jpg"),
+    tags: ["HTML", "CSS", "Javascript", "TailwindCSS", "React.Js", "Shadcn/ui"],
+    category: "AI/ML",
+    github: "https://github.com/yogesh889/Product-Dashboard",
+    webapp: "https://product-dashboard-hdt1.onrender.com/",
+  },
 ];
